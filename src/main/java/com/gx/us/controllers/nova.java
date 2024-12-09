@@ -125,14 +125,14 @@ public class nova
      
      
      
-    //http://localhost:8080/destination/?par=A_ProductCharcValue&baseurl=/sap/opu/odata/sap/API_CLFN_PRODUCT_SRV&destino=S4HANA_API_CLFN_PRODUCT_SRV 
+    //http://localhost:8080/destination/?par=A_ProductCharcValue&baseurl=/sap/opu/odata/sap/API_CLFN_PRODUCT_SRV&destino=******API_CLFN_PRODUCT_SRV 
      
     /* @RequestMapping( method = RequestMethod.GET )
      public String testeapi() {
 
       //  TesteJava destino = new TesteJava();
       
-      Conecta destino = new Conecta("/sap/opu/odata/sap/API_CLFN_PRODUCT_SRV", "A_ProductCharcValue", "S4HANA_API_CLFN_PRODUCT_SRV");
+      Conecta destino = new Conecta("/sap/opu/odata/sap/API_CLFN_PRODUCT_SRV", "A_ProductCharcValue", "************_API_CLFN_PRODUCT_SRV");
            
       
          return destino.getServicePath(); //destino.getRes();   
