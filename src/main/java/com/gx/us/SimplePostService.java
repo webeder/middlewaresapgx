@@ -34,7 +34,7 @@ public class SimplePostService {
 
         try {
             // Obtém a destination configurada
-            Destination destination = DestinationAccessor.getDestination("S4HANA_API_CLFN_PRODUCT_SRV").asHttp();
+            Destination destination = DestinationAccessor.getDestination("*****_API_CLFN_PRODUCT_SRV").asHttp();
             if (destination == null) {
                 
                 return "Erro: Destination não encontrada.";
@@ -61,7 +61,7 @@ public class SimplePostService {
             connection.setRequestProperty("Content-Type", "application/json; utf-8");
             connection.setRequestProperty("Accept", "application/json");
             connection.setRequestProperty("sap-client", "110");
-            connection.setRequestProperty("Authorization", "Basic SUFTX0RFVl9QT0M6UGFzc3dvcmRpYXNwb2NAMjAyNA==");
+            connection.setRequestProperty("Authorization", "Basic **************************");
           //  connection.setRequestProperty( "Cookie", cookie);
            
             connection.setRequestProperty("x-csrf-token", token);
