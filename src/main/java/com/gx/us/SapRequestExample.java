@@ -16,7 +16,7 @@ public class SapRequestExample {
 
   private  String SERVICE_PATH ; //  = "/sap/opu/odata/sap/";
   private  String ENTITY_NAME; //  = "z_gw_authorization_poc_srv";
-  private  String DESTINATION_NAME; // = "S4HANA_API_CLFN_PRODUCT_SRV";
+  private  String DESTINATION_NAME; // = "****_API_CLFN_PRODUCT_SRV";
   private  String baseUrl;
   private  String client; 
 
