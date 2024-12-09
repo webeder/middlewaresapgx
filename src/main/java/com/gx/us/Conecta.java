@@ -37,7 +37,7 @@ public class Conecta {
      
     //static String servicePath = "/sap/opu/odata/sap/API_CLFN_PRODUCT_SRV";
   //  static String entityName = "A_ProductCharcValue";
-  //  static String destinationName = "S4HANA_API_CLFN_PRODUCT_SRV";
+  //  static String destinationName = "******_API_CLFN_PRODUCT_SRV";
 
     public Conecta(String servicePath, String entityName, String destinationName,String var) {
         this.servicePath = servicePath;
